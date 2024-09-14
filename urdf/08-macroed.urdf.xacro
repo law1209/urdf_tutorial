@@ -27,6 +27,14 @@
     </inertial>
   </xacro:macro>
 
+  <link name="odom">
+  </link>
+
+  <joint name="odom_to_base_link" type="fixed">
+    <parent link="odom"/>
+    <child link="base_link"/>
+  </joint>
+
   <link name="base_link">
     <visual>
       <geometry>

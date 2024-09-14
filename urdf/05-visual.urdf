@@ -60,6 +60,7 @@
       <material name="black"/>
     </visual>
   </link>
+
   <joint name="right_front_wheel_joint" type="fixed">
     <parent link="right_base"/>
     <child link="right_front_wheel"/>
@@ -75,6 +76,7 @@
       <material name="black"/>
     </visual>
   </link>
+  
   <joint name="right_back_wheel_joint" type="fixed">
     <parent link="right_base"/>
     <child link="right_back_wheel"/>
